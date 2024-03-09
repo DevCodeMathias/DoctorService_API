@@ -10,8 +10,4 @@ public class PatientController {
     public void RegisterPatient(@RequestBody PatientData data){
         System.out.println(data);
     }
-
-
-
-
 }
