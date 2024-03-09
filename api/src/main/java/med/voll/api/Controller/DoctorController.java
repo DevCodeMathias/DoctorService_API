@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DoctorController {
     @PostMapping
     public void DoctorRegister(@RequestBody DataDoctor data){
-        //System.out.println(json);
+        System.out.println(data);
     }
-
-
 }
