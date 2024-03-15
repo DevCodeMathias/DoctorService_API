@@ -1,10 +1,10 @@
 package med.voll.api.Doctor;
-import med.voll.api.Address.Address;
+import med.voll.api.Address.DataAddress;
 
 public record DataDoctor(
         String name,
         String email,
         String crm,
         specialist specialist,
-        Address address) {
+        DataAddress address) {
 }
